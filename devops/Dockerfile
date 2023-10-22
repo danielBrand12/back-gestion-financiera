@@ -1,6 +1,6 @@
 # Utiliza una imagen base de OpenJDK 20
 FROM openjdk:20-jdk-slim
- 
+  
 # Establece el directorio de trabajo en /app
 WORKDIR /app
 
