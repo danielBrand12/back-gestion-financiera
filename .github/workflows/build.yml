@@ -27,7 +27,7 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build with Maven
-        run: mvn clean install sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=danielbrand12 -Dsonar.projectKey=danielBrand12_back
+        run: mvn clean install sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=danielbrand12 #-Dsonar.projectKey=danielBrand12_back
 
       # - name: SonarCloud Scan
       #   uses: SonarSource/sonarcloud-github-action@master
