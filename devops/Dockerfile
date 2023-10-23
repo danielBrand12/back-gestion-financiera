@@ -9,7 +9,7 @@ COPY target/ssmu-api-0.0.1-SNAPSHOT.jar app.jar
 
 # Expone el puerto 8080 que utiliza Spring Boot
 EXPOSE 8080
-
+ 
 # Comando para ejecutar la aplicación Spring Boot
 CMD ["java", "-jar", "app.jar"]
 
